@@ -18,7 +18,13 @@ img {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .color {
@@ -41,12 +47,23 @@ h3 {
 
 button {
   background-color: #3882f6;
+  display: block;
 }
 
 .information h2 {
   color: #1f2937;
   font-size: 20px;
   font-weight: extra-bold;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  gap: 16px;
+  margin: auto 28px;
 }
 
 .awesome h2 {
@@ -57,16 +74,29 @@ button {
 .quote {
   background-color: #e5e7eb;
   color: #1f2937;
+  font-style: italic;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .signature {
   color: black;
+  font-weight: bold;
 }
 
 .signup {
   background-color: #3882f6;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 25px;
 }
 
 .footer {
   background-color: #1f2937;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
 }
