@@ -12,19 +12,40 @@ img {
   height: 100px;
 }
 
+.img1 {
+  height: 150px;
+  width: 300px;
+}
+
 .header {
   background-color: #1f2937;
 }
 
+.container0 {
+  margin: auto 150px;
+}
+
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  gap: 50px;
+  margin: 70px auto;
+}
+
+.signup1 {
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 .color {
@@ -35,6 +56,9 @@ img {
 ul {
   text-decoration: none;
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  font-size: 15px;
 }
 
 .h {
@@ -52,7 +76,7 @@ button {
 
 .information h2 {
   color: #1f2937;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: extra-bold;
 }
 
@@ -64,6 +88,13 @@ button {
   display: flex;
   gap: 16px;
   margin: auto 28px;
+  margin: 80px;
+  font-weight: 100;
+}
+
+.clmn img {
+  border-radius: 15%;
+  margin-bottom: 10px;
 }
 
 .awesome h2 {
@@ -78,18 +109,57 @@ button {
   font-size: 16px;
   display: flex;
   flex-direction: column;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.container-quote {
+  margin: auto 100px;
 }
 
 .signature {
   color: black;
   font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.newsletter {
+  padding: 70px 150px;
 }
 
 .signup {
   background-color: #3882f6;
   margin: 25px;
   padding: 25px;
-  border-radius: 25px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signup h4 {
+  margin-bottom: 2px;
+}
+
+.signup p {
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.signup button {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 .footer {
